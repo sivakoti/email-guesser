@@ -1,0 +1,53 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+.Header{
+    font-size: 40px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.Button{
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #30e22a;
+    cursor: pointer;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 500px
+}
+
+.Error{
+    color: red;
+    font-size: smaller;
+    margin-bottom: 2px;
+}
+
+.Result{
+    width: 800px;
+    height: 40px;
+    margin-left: 500px;
+    color: black;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
